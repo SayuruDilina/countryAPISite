@@ -1,0 +1,164 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background: #f6e58d;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.search-container {
+    margin-bottom: 50px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.country-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.country-card:hover {
+    transform: scale(1.05);
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#txtSearchValue {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+#btn {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#btn:hover {
+    background-color: red;
+}
+
+.content h1 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.content h1#offitalName {
+    color: #007BFF;
+}
+
+.content h1#name {
+    color: #28a745;
+}
+
+.content h1#capital {
+    color: #dc3545;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+td {
+    background-color: #fff;
+} */
+body{
+    background:#f6e58d ;
+    text-align: center;
+}
+#txtSearchValue{
+    margin-top: 5%;
+    margin-left:20%;
+ border-radius: 40px;  
+ padding: 20px; 
+ width: 700px;
+}
+#btn{
+    border-radius: 40px;
+    padding:20px ;
+    width: 200px;
+    font-size: large;
+}
+#btn:hover{
+  background-color: red;
+}
+.country-card-content{
+    margin-top: 5%;
+    text-align: center;
+    color: red;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    
+}
+#tbl{
+    width: 100%;
+    border-collapse: collapse;
+   margin-top: 40%;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    text-align: center;
+    margin-left: 80%;
+
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+td {
+    background-color: #fff;
+} 
